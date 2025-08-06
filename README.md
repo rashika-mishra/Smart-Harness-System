@@ -69,19 +69,6 @@ The Smart Harness System is an IoT-based safety device, designed specifically fo
 - **NTP (Network Time Protocol):** Obtains accurate real-time timestamps.
 - **AJAX/JavaScript Web Frontend:** Presents live sensor data and maps on a user-friendly dashboard UI.
 
-[Wearer]
-|
-[Sensors (MAX30105|MPU6050|GPS)]
-|
-[ESP32 - Signal Processing & Decision]
-|
-[WiFi]
-|
-[Web Dashboard] <--- Live Data --->
-| | [Email + SMS Alert]
-[Supervisor/Caregiver Devices]
-
-
 ## Features
 
 - **Fall Detection:** Highly sensitive to sudden acceleration changes (using MPU6050).
@@ -168,4 +155,14 @@ This project is for educational and research use. Please credit author for comme
 *Smart Harness System — Because every second counts in an emergency!*
 
 ## System Architecture
-
+[Wearer]
+|
+[Sensors (MAX30105|MPU6050|GPS)]
+|
+[ESP32 - Signal Processing & Decision]
+|
+[WiFi]
+|
+[Web Dashboard] <--- Live Data --->
+| | [Email + SMS Alert]
+[Supervisor/Caregiver Devices]
